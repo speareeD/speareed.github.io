@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Unbounded:wght@900&family=Zen+Dots&display=swap');
+body{
+    background: linear-gradient(90deg, #2816b1 0%, #000000 100%);
+    font-family: unbounded, serif;
+    font-size: small;
+}
+p{
+    color: aquamarine;
+}
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(115, 124, 121);
+}
+.navbar-brand>img{
+    width: 35px;
+}
+.navbar-toggler{
+    background-color: grey;
+}
+.sightbar{
+    color: aquamarine;
+    background: linear-gradient(270deg, #2816b1 0%, #000000 100%);
+    
+}
+.card{
+  background: linear-gradient(270deg, #2816b1 0%, #000000 100%);  
+}
+.card-text, .card-title{
+    color: aquamarine;
+}
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.slide-text, .footer-text{
+color: aquamarine;
+margin: auto auto;
+}
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+footer, .btn-outline-primary{
+
+    background: linear-gradient(270deg, #2816b1 0%, #000000 100%);
+} 
+.tg{
+    background-color: white;
+    border-radius: 50%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anim{
+    animation: call 2s ease-out 1s infinite normal none;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
