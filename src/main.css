@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-link {
+    @apply inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800
+}
