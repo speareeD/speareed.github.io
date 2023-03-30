@@ -734,10 +734,6 @@ video {
   max-width: 1280px;
 }
 
-.grid-rows-\[auto_1fr_auto\] {
-  grid-template-rows: auto 1fr auto;
-}
-
 .grid-rows-layout {
   grid-template-rows: auto 1fr auto;
 }
