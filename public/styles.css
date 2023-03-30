@@ -1238,6 +1238,11 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
+  .dark\:text-indigo-500{
+    --tw-text-opacity: 1;
+    color: rgb(99 102 241 / var(--tw-text-opacity));
+  }
+
   .dark\:hover\:border-gray-400:hover{
     --tw-border-opacity: 1;
     border-color: rgb(156 163 175 / var(--tw-border-opacity));
