@@ -967,6 +967,10 @@ video {
   padding-bottom: 1rem;
 }
 
+.font-main{
+  font-family: Montserrat;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
