@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       gridTemplateRows: {
         'layout': 'auto 1fr auto'
+      },
+      colors: {
+        'logo-main': '#9b0404'
       }
     },
   },
